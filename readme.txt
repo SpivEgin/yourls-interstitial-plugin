@@ -1,11 +1,11 @@
-Joel?s Interstitial Plugin for YOURLs
+Joel’s Interstitial Plugin for YOURLs
 Copyright (C) 2014 - 2016 - Joel Gratcyk
 
 ## Install
 
 That's obvious but I'll state it anyway, the plugin requires a running and up to date YOURLS installation.
 
-Create a directory named for instance ?interstitial" in the /user/plugins directory, and upload there the content of the attached archive, keeping the directory structure
+Create a directory named for instance "interstitial" in the /user/plugins directory, and upload there the content of the attached archive, keeping the directory structure
 
 Go to the plugin admin panel and activate "Joel's Interstitial" plugin
 
@@ -40,5 +40,5 @@ If you run a popular URL shortener, you could also put a link along the lines of
 
 ## That's it !
 
-Have fun with Joel?s Interstitial Plugin for YOURLs and don?t spam anyone!
+Have fun with Joel’s Interstitial Plugin for YOURLs and don’t spam anyone!
 
