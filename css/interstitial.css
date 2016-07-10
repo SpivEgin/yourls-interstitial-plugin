@@ -1,0 +1,45 @@
+body {
+	margin:0px;
+	background-color:#fff;
+	font-size:12px;
+	font-family: Verdana, Arial;
+}
+
+#header {
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	height:65px;
+	width:100%;
+	background:#000;
+	color:#fff;
+    margin-bottom:30px;
+}
+
+#header a {
+	text-decoration:none;
+	color:#fff;
+}
+
+#header a:hover {
+	text-decoration:underline;
+}
+
+#logo {
+    float:left;
+    margin-left:30px;
+}
+
+#skip {
+	float:right;
+    text-align:right;
+	margin-right:30px;
+    margin-top: 10px;
+}
+
+#ad {
+    margin:auto 30px;
+    border:1px solid #ccc;
+    padding:10px;
+    min-width:300px;
+    min-height:100px;
+}

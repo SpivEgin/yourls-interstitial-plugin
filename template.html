@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Redirecting to: %pagetitle%</title>
+    <meta charset="utf-8"> 
+    <meta http-equiv="refresh" content="15;url=%url%">
+    <meta name="ROBOTS" content="NOINDEX, FOLLOW" />
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link rel="stylesheet" href="%pluginurl%/css/interstitial.css" type="text/css" media="all" />
+</head>
+
+<body>
+
+<div id="header">
+    <div id="logo">
+        <img src="%pluginurl%/img/logo.jpg" />
+    </div>
+    
+    <div id="skip">
+        <p><a href="%url%" title="Skip this ad">Skip this ad &raquo;</a></br>
+        or wait <span id="timer">15</span> seconds</p>
+    </div>
+</div>
+
+<div id="ad">
+%ad%
+</div>
+
+<script>
+var count = 15;
+
+function countDown(){
+    var timer = document.getElementById("timer");
+    if(count > 0){
+        count--;
+        timer.innerHTML = count;
+        setTimeout("countDown()", 1000);
+    }else{
+        window.location.href = "%url%";
+    }
+}
+countDown();
+</script>
+
+</body>
+</html>
