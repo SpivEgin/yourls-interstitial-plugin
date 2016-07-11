@@ -1,5 +1,8 @@
-Joel’s Interstitial Plugin for YOURLs
-Copyright (C) 2014 - 2016 - Joel Gratcyk
+## Joel’s Interstitial Plugin for YOURLs
+
+Copyright (C) 2014 - 2016 Joel Gratcyk
+
+http://joel.gratcyk.com/yourls
 
 
                     GNU AFFERO GENERAL PUBLIC LICENSE
